@@ -1,0 +1,91 @@
+html,
+body{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	font-family: 'Inter';	
+}
+
+.darkfont { 
+	color: hsl(240, 38%, 20%);
+}
+
+.lightfont {
+	color: hsl(240, 18%, 77%);
+}
+section {
+	display: flex;
+	flex-direction: column;
+}
+section .slider {
+	position: relative;
+	max-width: 1175px;
+	display: flex;
+	margin: auto;	
+	margin-top: 65px;	
+}
+
+section .slider .description .img-div {
+	width: 300px;
+	position: absolute;
+	top: 109px;
+}
+
+section .slider .description .img-div img{
+	float: right;
+}
+section .slider .description .comments {
+	position: absolute;
+    font-size: 29px;
+    max-width: 600px;
+    margin-left: 88px;
+    top: 145px;
+	line-height: 40px;
+}
+
+section .slider .description .title {
+	width: 330px;
+	margin-top: 390px;
+	margin-left: 90px;
+	font-size: 16px;
+}
+
+section .slider .picture{
+	display: flex;
+	flex-direction: column;
+}
+section .slider .picture .background {
+	width: 625px;
+	height: 580px;
+	margin-top: -30px;
+	margin-left: 127px;
+}
+
+section .slider .picture .person{
+	width: 480px;
+	height: 500px;
+	margin-left: 250px;
+	margin-top: -527px;
+	border-radius: 5px;
+	box-shadow: 10px 45px 80px -60px hsl(240, 38%, 20%);
+}
+
+section .slider .picture .icons {
+	position: relative;
+    max-width: 131px;
+    margin: auto;
+    right: 15px;
+    top: -20px;
+	border-radius: 25px;
+	background-color: hsl(0, 0%, 100%);
+}
+
+section .slider .picture .icons img{
+	    padding: 22px 25px 19px 25px;
+}
+
+section #slider-2 {
+	display: none;
+}

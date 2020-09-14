@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1030px) {
+	section .slider	{
+		flex-direction: column-reverse;
+	}
+	
+	section .slider .picture .background {
+		margin: auto;
+	}
+	
+	section .slider .picture .person{
+		margin: auto;
+		margin-top: -524px;
+		height: 477px;
+		width: 489px;
+	}
+	
+	section .slider .picture .icons{
+		margin: auto;
+		margin-top: -20px;
+		right: 9px;
+	}
+	
+	section .slider .description {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	section .slider .description .img-div {
+		position: static;
+		width: 100%;
+		margin-top: 62px;
+	}
+	
+	section .slider .description .img-div img {
+		float: none;
+	    margin: auto;
+		display: block;
+	}
+	
+	section .slider  .description .comments {
+		text-align: center;
+		font-size: 29px;
+		max-width: 517px;
+		margin: auto;
+		margin-top: -40px;
+		position: static;
+	}
+	
+	section .slider .description .title {
+		margin: auto;
+		margin-top: 30px;
+		font-size: 16px;
+	}
+	
+	section .slider .description .title span {
+		display: block;
+		width: 225px;
+		text-align: center;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 575px) {	
+	section .picture .background {
+		width: 385px;
+		height: 390px;
+	}
+	
+	section .picture .person{
+		width: 305px;
+		height: 320px;
+	}
+		
+	section .description .comments {
+		font-size: 22px;
+		line-height: 30px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	section .slider {
+		flex-direction: column-reverse;
+		width: 355px;
+	}
+	section .slider .picture .background {
+		width: 315px;
+		height: 290px;
+		margin-top: -30px;
+	}
+	
+	section .slider .picture .person{
+		width: 249px;
+		height: 238px;
+		margin-top: -262px;
+	}
+	
+	section .slider .picture .icons {
+	    margin-top: 0px;
+		max-width: 201px;
+	}
+	section .slider .picture .icons img{
+	    padding: 12px 8px 7px 8px;
+}
+
+	section .description img {
+		width: 70px;
+	}
+	
+	section .slider .description .comments {
+		font-size: 18px;
+		line-height: 25px;
+		margin-top: -23px;
+		width: 311px;
+	}
+	
+	section .slider .description .img-div {
+		   position: static;
+		width: 100%;
+		margin-top: 20px;
+	}
+	
+	
+	section .slider .description .img-div img {
+		float: none;
+	    margin: auto;
+		display: block;
+	}
+}
