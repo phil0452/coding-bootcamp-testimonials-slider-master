@@ -1,0 +1,128 @@
+html,
+body{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	font-family: 'Inter';	
+}
+
+.darkfont { 
+	color: hsl(240, 38%, 20%);
+}
+
+.lightfont {
+	color: hsl(240, 18%, 77%);
+}
+
+
+section {
+	display: flex;
+	flex-direction: column;
+}
+
+
+section .slider {
+	position: relative;
+	display: flex;
+	flex-direction: column-reverse;
+	margin: auto;	
+	margin-top: 65px;	
+	padding-left: 30px;
+    padding-right: 30px;
+	width: 330px;
+}
+
+section .slider .description .img-div {
+    width: 50px;
+    margin: auto;
+}
+
+section .slider .description .img-div img {
+	width: 100%;
+	height: 100%;
+}
+	
+section .slider .picture{
+	display: flex;
+	flex-direction: column;	
+	position: relative;
+}
+
+section .slider .picture .background-picture {
+	width: 300px;
+    height: auto;
+    margin-top: -30px;
+    /* margin: auto; */
+    /* margin-left: 127px; */
+}
+
+section .slider .picture .background-picture img {
+	width: 100%;
+	height: 100%;
+}
+
+section .slider .picture .person {
+    width: 229px;
+    height: 230px;
+    /* margin: auto; */
+    /* margin-top: -324px; */
+    position: absolute;
+    /* display: block; */
+    /* top: 0; */
+    left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 45px 80px -85px  hsl(240, 38%, 20%);
+}
+
+section .slider .picture .person img {
+	width: 100%;
+	height: 100%;
+}
+
+section .slider .picture .icons {
+	position: relative;
+    width: 112px;
+    margin: auto;
+    right: 15px;
+    top: -50px;
+	border-radius: 25px;
+	background-color: hsl(0, 0%, 100%);
+}
+
+section .slider .picture .icons a{
+	cursor: pointer;
+}
+section .slider .picture .icons img{
+	padding: 18px 20px 10px 20px;
+}
+
+section .slider .description .comments {
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-top: -23px;
+    width: 314px;
+}
+	
+section .slider .description .title {
+	width: 217px;
+    font-size: 16px;
+    margin: auto;
+	text-align: center;
+}
+
+section .slider .description .title span {
+	display: block;
+	margin-bottom: 3px;
+}
+
+section .slider .description .title .darkfont{
+	font-weight: 800;
+}
+
+section #slider-2 {
+	display: none;
+}
